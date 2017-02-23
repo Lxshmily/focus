@@ -1,0 +1,31 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>3d旋转木马</title>
+	<link rel="stylesheet" href="css/focus.css">
+</head>
+<body>
+<div class="referral">
+利用原生js，采用交换json数据的方法实现3D轮播效果，引入了自己写的一个小运动框架，yaoyu-animate.js，可循环使用，只需传入id，和属性，属性以json的方式即可。中间使用了函数节流的方式，控制轮播图不会抢播。
+</div>
+<h1 class="txt">旋转木马</h1>
+	<div class="silder" id="silder_box">
+		<div class="warp" id="warp">
+			<ul>
+				<li><img src="images/pic01.jpg" alt=""></li>
+				<li><img src="images/pic02.jpg" alt=""></li>
+				<li><img src="images/pic03.jpg" alt=""></li>
+				<li><img src="images/pic04.jpg" alt=""></li>
+				<li><img src="images/pic05.jpg" alt=""></li>
+			</ul>
+			<div class="arrow" id="arrow">
+				<div class="arrow-prev"></div>
+				<div class="arrow-next"></div>
+			</div>
+		</div>
+	</div>
+</body>
+</html>
+<script src="js/yaoyu-animate.js"></script>
+<script src="js/focus.js"></script>

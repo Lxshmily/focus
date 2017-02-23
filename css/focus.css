@@ -1,0 +1,63 @@
+/*初始化  reset*/
+blockquote,body,button,dd,dl,dt,fieldset,form,h1,h2,h3,h4,h5,h6,hr,input,legend,li,ol,p,pre,td,textarea,th,ul{margin:0;padding:0}
+body,button,input,select,textarea{font:12px/1.5 "Microsoft YaHei", "微软雅黑", SimSun, "宋体", sans-serif;color: #666;}
+ol,ul{list-style:none}
+a{text-decoration:none}
+fieldset,img{border:0;vertical-align:top;}
+a,input,button,select,textarea{outline:none;}
+a,button{cursor:pointer;}
+body{
+	background: #0c0c0c;
+}
+.silder{
+	width: 1200px;
+	margin:5px auto;
+	border:1px solid red;
+}
+.warp{
+	height: 500px;
+	position: relative;
+
+}
+.warp li{
+	position: absolute;
+	left: 200px;
+}
+.warp img{
+	width: 100%;
+	height: auto;
+}
+.arrow{
+	z-index: 100;
+	opacity: 0;			
+}
+.arrow-prev,
+.arrow-next{			
+	position: absolute;
+	top: 50%;
+	margin-top:-56px;
+	z-index: 99;
+	width: 76px;
+	height: 112px;
+}
+.arrow-prev{
+	background: url(../images/prev.png) no-repeat;
+	left: 0;
+}
+.arrow-next{
+	background: url(../images/next.png) no-repeat;
+	right: 0;
+}
+.txt{
+	text-align: center;
+	line-height: 70px;
+	font-size: 38px;
+	color: #fff;
+}
+.referral{position: absolute;
+	left: 5px;
+	top: 5px;
+	border:1px solid #ccc;
+	padding: 5px;
+	color: #fff;
+	width:400px;}
